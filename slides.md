@@ -21,6 +21,7 @@ mdc: true
 ---
 
    <h1 class="font-bold"><span class="text-[#ff7b00]">Byte</span>Bridge</h1>
+    <p></p>
     <p class=" text-2xl inline-block px-4 py-2 rounded-xl bg-[#ff7b00]">Conectando usuários a tecnologia</p>
 
 <img class="absolute -bottom-30 -left-10" src="/images/detail_1.svg">
@@ -127,6 +128,7 @@ clicks: 4
 <style>
 h1 {
     text-align: center;
+font-size: 2.5rem;
 }
 
 </style>
@@ -139,7 +141,9 @@ url: https://gab-off.github.io/byteBridgeSite/
 ---
 layout:
 class: bg-black
+
 # Opcional, o Slidev calcula o máximo de cliques, mas é bom manter para clareza
+
 clicks: 5
 ---
 
