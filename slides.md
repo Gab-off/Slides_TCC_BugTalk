@@ -99,8 +99,8 @@ clicks: 4
             'opacity-100': $clicks === 1 || $clicks >= 4,
             'opacity-0': !($clicks === 1 || $clicks >= 4)
          }">
-        <h2 class="font-semibold border border-orange-500 rounded-full px-3 py-1">Missão</h2>
-        <p class="mt-4">Capacitar indivíduos e comunidades com ferramentas digitais inovadoras.</p>
+        <h2 class="font-semibold text-lg border border-orange-500 rounded-full px-3 py-1">Missão</h2>
+        <p class="mt-4 pgf">Capacitar indivíduos e comunidades com ferramentas digitais inovadoras.</p>
     </div>
     <div class="transition-opacity duration-500"
          :class="{
@@ -108,7 +108,7 @@ clicks: 4
             'opacity-0': !($clicks === 2 || $clicks >= 4)
          }">
         <h2 class="font-semibold border border-orange-500 rounded-full px-3 py-1">Visão</h2>
-        <p class="mt-4">Ser líder global em inovação conectando tecnologia, educação e bem-estar.</p>
+        <p class="mt-4 pgf">Ser líder global em inovação conectando tecnologia, educação e bem-estar.</p>
     </div>
     <div class="transition-opacity duration-500"
          :class="{
@@ -116,7 +116,7 @@ clicks: 4
             'opacity-0': !($clicks === 3 || $clicks >= 4)
          }">
         <h2 class="font-semibold border border-orange-500 rounded-full px-3 py-1 ">Valores</h2>
-        <p class="mt-4">Ética, acessibilidade e colaboração.</p>
+        <p class="mt-4 pgf">Ética, acessibilidade e colaboração.</p>
     </div>
 </div>
 
@@ -129,6 +129,10 @@ clicks: 4
 h1 {
     text-align: center;
 font-size: 2.5rem;
+}
+
+.pgf {
+font-size: 1.3rem;
 }
 
 </style>
@@ -154,10 +158,10 @@ clicks: 5
     text-transparent
 ">cenário</span></h1>
 <ul class="">
-    <li v-click>Necessidade de espaços de diálogo e colaboração na ETEC</li>
-    <li v-click>Alunos de DS carecem de ambiente estruturado para dúvidas e trocas de conhecimento.
+    <li class="text-larger" v-click>Necessidade de espaços de diálogo e colaboração na ETEC</li>
+    <li class="text-larger" v-click>Alunos de DS carecem de ambiente estruturado para dúvidas e trocas de conhecimento.
 </li>
-    <li v-click>46,9% dos alunos pesquisados já tiveram dificuldades em encontrar ajuda
+    <li class="text-larger" v-click>46,9% dos alunos pesquisados já tiveram dificuldades em encontrar ajuda
 </li>
 </ul>
 <div v-click class="h-80 border-1 border-[#4E945D] rounded-2xl mt-5">
@@ -167,6 +171,13 @@ clicks: 5
 
 <img class="absolute rotate-45 opacity-50 -bottom-15 -left-10" src="/images/detail_green.svg">
 <img class="absolute rotate-45 opacity-50 -top-15 -right-10" src="/images/detail_green.svg">
+
+
+<style>
+.text-larger {
+    font-size: 1.2rem;
+}
+</style>
 
 ---
 layout: full
