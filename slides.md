@@ -192,29 +192,44 @@ Problemas<span class="text-[#35B89F]">identificados</span>
     <div v-click>
         <h2 class="rounded-3xl px-3 py-1 bg-gradient-to-r from-[#33B49D] to-[#005870]">Comunicação</h2>
         <ul>
-            <li>Ausência de um ambiente colaborativo centralizado.</li>
-            <li>Falta de comunicação entre diferentes módulos e turmas.</li>
-            <li>Falta de incentivo à colaboração contínua.</li>
+            <li class="topico">Ausência de um ambiente colaborativo centralizado.</li>
+            <li class="topico">Falta de comunicação entre diferentes módulos e turmas.</li>
+            <li class="topico">Falta de incentivo à colaboração contínua.</li>
         </ul>
     </div>
     <div v-click>
         <h2 class="rounded-3xl px-3 py-1 bg-gradient-to-r from-[#33B49D] to-[#005870]">Ambiente</h2>
         <ul>
-            <li>Ausência de um ambiente colaborativo centralizado.</li>
-            <li>Falta de comunicação entre diferentes módulos e turmas.</li>
-            <li>Falta de incentivo à colaboração contínua.</li>
+            <li class="topico">Ausência de um ambiente colaborativo centralizado.</li>
+            <li class="topico">Falta de comunicação entre diferentes módulos e turmas.</li>
+            <li class="topico">Falta de incentivo à colaboração contínua.</li>
         </ul>
     </div>
 </div>
+
+<style>
+    .topico {
+        font-size: 1.2rem;
+    }   
+</style>
 
 ---
 layout: center
 class: bg-black
 ---
 
-<h1 class="font-bold">Solução <span class="color-[#08a3c1]">Proposta</span></h1>
-<h2 v-click class="text-center font-bold">Bug<span class="color-[#08a3c1]">Talk</span></h2>
+<h1 class="title font-bold">Solução <span class="color-[#08a3c1]">Proposta</span></h1>
+<h2 v-click class="content text-center font-bold">Bug<span class="color-[#08a3c1]">Talk</span></h2>
 
+<style>
+    .title {
+        font-size: 2.5rem;    
+    }
+
+    .content {
+        font-size: 3rem;
+    }
+</style>
 
 ---
 layout: center
