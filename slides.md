@@ -219,7 +219,7 @@ class: bg-black
 ---
 
 <h1 class="title font-bold">Solução <span class="color-[#08a3c1]">Proposta</span></h1>
-<h2 v-click class="content text-center font-bold">Bug<span class="color-[#08a3c1]">Talk</span></h2>
+<h2 v-click class="content text-center font-bold"><span class="color-[#08a3c1]">Bug</span>Talk</h2>
 
 <style>
     .title {
