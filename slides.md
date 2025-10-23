@@ -200,9 +200,8 @@ Problemas<span class="text-[#35B89F]">identificados</span>
     <div v-click>
         <h2 class="rounded-3xl px-3 py-1 bg-gradient-to-r from-[#33B49D] to-[#005870]">Ambiente</h2>
         <ul>
-            <li class="topico">Ausência de um ambiente colaborativo centralizado.</li>
-            <li class="topico">Falta de comunicação entre diferentes módulos e turmas.</li>
-            <li class="topico">Falta de incentivo à colaboração contínua.</li>
+            <li class="topico">Dificuldade em encontrar soluções técnicas compartilhadas.</li>
+            <li class="topico">Carência de uma plataforma adaptada ao ambiente educacional.</li>
         </ul>
     </div>
 </div>
