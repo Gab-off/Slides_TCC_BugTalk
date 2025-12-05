@@ -136,11 +136,6 @@ font-size: 1.3rem;
 }
 
 </style>
----
-layout: iframe
-background: background-black
-url: https://gab-off.github.io/byteBridgeSite/
----
 
 ---
 layout:
